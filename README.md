@@ -28,7 +28,7 @@ This assignment requires that your website is both contained in a GitHub reposit
     * A package.json file that helps configure Glitch
     * This README
 2. Edit `index.html` to show the following information about you:
-    * your name and class at WPI (e.g. class of 2020) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
+    * your name and class at WPI (e.g. class of 2025) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
     * your major(s) and minor(s)
     * previous computer science courses that you have taken at WPI
     * your experience with the following technologies and methods (none, some, a lot)
@@ -36,8 +36,10 @@ This assignment requires that your website is both contained in a GitHub reposit
         * CSS
         * Java
         * JavaScript
-        * Ruby
         * Python
+        * SQL (Postgres, Oracle, MySQL, etc.)
+        * MongoDB
+        * React
         * unit testing
 4. Complete some technical and/or design achievements (see below).
 5. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
