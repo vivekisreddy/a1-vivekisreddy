@@ -1,5 +1,3 @@
-Under Construction
-
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
@@ -32,24 +30,36 @@ This assignment requires that your website is both contained in a GitHub reposit
 2. Edit `index.html` to show the following information about you:
     * your name and class at WPI (e.g. class of 2025) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
     * your major(s) and minor(s)
-    * previous computer science courses that you have taken at WPI
-    * your experience with the following technologies and methods (none, some, a lot)
+    * a list of previous computer science courses that you have taken at WPI
+    * a table containing your experience with the following technologies and methods (none, some, a lot)
         * HTML
         * CSS
-        * Java
-        * JavaScript
-        * Python
-        * SQL (Postgres, Oracle, MySQL, etc.)
+        * JavaScript/Typescript (specify which one)
+        * SQL (specify which ones)
         * MongoDB
-        * React
+        * Web Frameworks (specify which ones)
         * unit testing
-4. Complete some technical and/or design achievements (see below).
-5. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
-
-6. Modify the README file according to the specification below.
-7. Commit and push all your changes to GitHub. 
-8. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875)
-9. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
+3. Create `hobby.html` to show one of your interests:
+    * use two of the HTML5 semantic block elements - main, section, article, aside, header, footer
+    * create a form related to your hobby (such as asking readers to provide information about their interests) that include the following the following form elements
+        * input text box
+        * text area
+        * check boxes
+        * radio buttons - note that the radio buttons should permit only a single selection!
+        * a drop down selection list
+        * labels for each of the elements above
+        * a submit button with no action (the button does not do anything for now)
+4. Using the <nav> tag and unordered lists as mentioned in class, create the following horizontal navigation menu at the top of the `index.html` and `hobby.html` documents. You will want to research the a: pseudo classes, such as a:hover, to create styles for the four menu selections:
+    * Link to `index.html`
+    * Link to `hobby.html`
+    * Link to WPI's home page
+    * Link to an informative web page related to your hobby
+6. Complete some technical and/or design achievements (see below).
+7. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
+8. Modify the README file according to the specification below.
+9. Commit and push all your changes to GitHub. 
+10. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875)
+11. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
 9. Create and submit a Pull Request to the original repo.
 
 ## Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
@@ -62,12 +72,12 @@ Naming and URL Scheme
 ---
 
 You must use a consistent naming scheme for all projects in this course.
+The name scheme should be `a1-yourGitHubUsername`.
+The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
+
 If we can't find it, we can't grade it.
 
 By default Glitch often assigns your application a random name. To change it, click on the project dropdown menu in the upper left corner of Glitch. You will then see an additional text field displaying the project name in the resulting menu; click here to edit the name.
-
-The name scheme should be `a1-yourGitHubUsername`.
-The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
 
 Achievements
 ---
@@ -76,9 +86,9 @@ Below are some suggested technical and design achievements. You can use these to
 Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
 
 *Technical*
-1. (max 5 points) Style your page using CSS. Each style rule you apply will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
+1. (max 5 points) Style your page using an external stylesheet named styles.CSS. Each style rule you apply other than the a: pseudo class styles will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
 2. (5 points) Add a simple JavaScript animation to the page.
-3. (max 5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra tag you use will get you 1 extra point for a maximum of 5 points. Be sure to describe the tags you use in your README.
+3. (max 5 points) Experiment with additional *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra semantic tag beyond the two required ones will get you 1 extra point for a maximum of 5 points. Be sure to list the semantic tags you use in your README.
 
 *Design*
 1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
@@ -89,12 +99,12 @@ Resources
 
 If you need a JavaScript/HTML/CSS refresher, see [HTML & CSS](https://wpi.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma9936730811904746&context=L&vid=01WPI_INST:Default&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,Jon%20Duckett&offset=0) and/or [JavaScript Codeacademy](https://www.codecademy.com/en/tracks/javascript).
 
-If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.com/categories/bootcamp/), the [GitHub Guides](https://guides.github.com/) (especially the ones on Hello World, and Understanding the GitHub Flow, and Forking Projects), and [CodeSchool's Try Git Course](https://www.codeschool.com/courses/try-git).
+If you need a Git/GitHub refreseher, see the GitHub document posted on Canvas and the Learning Git textbook. Addition references that may be useful are [GitHub Bootcamp](https://help.github.com/categories/bootcamp/), the [GitHub Guides](https://guides.github.com/) (especially the ones on Hello World, and Understanding the GitHub Flow, and Forking Projects), and [CodeSchool's Try Git Course](https://www.codeschool.com/courses/try-git).
 
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-CYour Name GlitchLink
+Your First and Last Name: GlitchLink
 
 This project shows ...
 
