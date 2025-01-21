@@ -1,1 +1,90 @@
+/* Define the blue color palette */
+:root {
+    --color-light-blue: #A3D8F4;
+    --color-medium-blue: #4A90E2;
+    --color-dark-blue: #1C3E76;
+    --color-sky-blue: #65B2E8;
+    --color-steel-blue: #4682B4;
+}
 
+/* Apply the colors in the page styles */
+
+/* Background colors for sections */
+body {
+    background-color: var(--color-light-blue);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: var(--color-dark-blue);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav .navbar {
+    background-color: var(--color-medium-blue);
+}
+
+nav .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to align the links horizontally */
+    justify-content: center; /* Center the links */
+    font-family: 'Lato', sans-serif;
+}
+
+nav .navbar ul li {
+    margin: 0 15px; /* Space between the links */
+}
+
+nav .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: var(--color-dark-blue);
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    color: var(--color-medium-blue);
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    background-color: var(--color-steel-blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid var(--color-dark-blue);
+    font-family: 'Lato', sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--color-sky-blue);
+    color: white;
+}
+
+td {
+    background-color: var(--color-light-blue);
+}
