@@ -24,8 +24,6 @@ Technical Achievements
     table cells, and navbar links.   Each distinct style rule (e.g., background colors, font
     families, padding, alignment) contributes to the maximum 5 points for this requirement.
 
-    2.
-
     3. I have utilized a variety of semantic HTML tags in my index.html file. Here is a list of the semantic tags used:
        <nav>: Defines the navigation bar for links.
        <ul> and <li>: Used for unordered lists to display navigation links and a list of courses.

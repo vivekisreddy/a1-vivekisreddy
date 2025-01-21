@@ -26,14 +26,27 @@ nav .navbar {
 
 nav .navbar ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+nav .navbar1 ul {
+    list-style: none;
     display: flex;
     justify-content: center;
     font-family: 'Lato', sans-serif;
 }
 
+nav .navbar1 {
+    background-color: var(--color-medium-blue);
+}
+
+
 nav .navbar ul li {
+    margin: 0 15px;
+}
+
+nav .navbar1 ul li {
     margin: 0 15px;
 }
 
@@ -43,10 +56,13 @@ nav .navbar ul li a {
     padding: 10px 20px;
 }
 
-h1 {
-    color: var(--color-dark-blue);
-    font-family: 'Lato', sans-serif;
+nav .navbar1 ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
 }
+
+
 
 h3 {
     color: var(--color-medium-blue);
