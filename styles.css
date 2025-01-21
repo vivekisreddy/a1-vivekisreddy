@@ -6,10 +6,6 @@
     --color-sky-blue: #65B2E8;
     --color-steel-blue: #4682B4;
 }
-
-/* Apply the colors in the page styles */
-
-/* Background colors for sections */
 body {
     background-color: var(--color-light-blue);
     font-family: 'Lato', sans-serif;
@@ -32,13 +28,13 @@ nav .navbar ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Use flexbox to align the links horizontally */
-    justify-content: center; /* Center the links */
+    display: flex;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
 }
 
 nav .navbar ul li {
-    margin: 0 15px; /* Space between the links */
+    margin: 0 15px;
 }
 
 nav .navbar ul li a {
