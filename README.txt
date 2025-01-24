@@ -1,7 +1,7 @@
 Name: Vivek Reddy Kasireddy
 Assignment: Assignment 1 - CS4241 Webware
 Date: 1/23/24
-Glitch Link: https://opaque-fluttering-lute.glitch.me/
+Glitch Link: https://a1-vivekisreddy.glitch.me/
 
 This project serves as a personal portfolio and an interactive hobby survey, showcasing my background, interests,
 and skills while engaging users to share their own. On the homepage, I introduce myself as a passionate student
